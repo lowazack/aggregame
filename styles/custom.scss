@@ -4,6 +4,7 @@ $theme-colors: (
         "white": $white,
         "black": $black,
         "primary": #0074d9,
+        "warn": #eb2f06
 );
 
 $grid-breakpoints: (
@@ -15,5 +16,11 @@ $grid-breakpoints: (
 );
 $enable-rounded: false;
 
-@import '../node_modules/bootstrap/scss/bootstrap';
+$btn-padding-y: 10px;
+$btn-padding-x: 20px;
+$btn-border-radius: 10px;
+$btn-border-radius-sm: 10px;
+$btn-border-radius-lg: 10px;
+
+@import "imports";
 @import '../node_modules/bootstrap-vue/src/index';
